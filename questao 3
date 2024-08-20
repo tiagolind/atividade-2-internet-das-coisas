@@ -1,0 +1,18 @@
+1: #include <stdio.h>
+2:
+3: int main () {
+4:
+5: int numero1,numero2,soma;
+6:
+7: printf("Digite o numero: ");
+8: scanf("%d", &numero1);
+9:
+10: if (numero1 % 2 == 0){
+11: printf("O numero e par.");
+12: }
+13: else{
+14: printf("O numero e impar.");
+15: }
+16:
+17: return 0;
+18: }
