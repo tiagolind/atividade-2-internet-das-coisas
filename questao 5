@@ -1,0 +1,22 @@
+1: #include <stdio.h>
+2:
+3: int main () {
+4:
+5: int numero3,numero1,numero2;
+6: float media;
+7:
+8: printf("Digite o primeiro numero: ");
+9: scanf("%d", &numero1);
+10:
+11: printf ("Digite o segundo numero: ");
+12: scanf("%d", &numero2);
+13:
+14: printf("Digite o terceiro numero: ");
+15: scanf("%d", &numero3);
+16:
+17: media = (numero1 + numero2+ numero3)/3;
+18:
+19: printf ("a media dos numeros falados e: %.2f", media);
+20:
+21: return 0;
+22: }
