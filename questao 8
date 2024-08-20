@@ -1,0 +1,17 @@
+1: #include <stdio.h>
+2:
+3: int main () {
+4:
+5: int numero, resultado, cont;
+6:
+7:
+8: printf("Digite o numero que voce quer saber a tabuada: ");
+9: scanf("%d", &numero);
+10:
+11: for (cont = 0; cont <= 10; cont ++){
+12: printf("%d x %d = %d \n", numero, cont, numero * cont);
+13:
+14: }
+15:
+16: return 0;
+17: }
